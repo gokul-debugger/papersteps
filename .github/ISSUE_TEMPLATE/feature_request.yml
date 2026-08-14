@@ -1,0 +1,29 @@
+name: Feature request
+description: Propose an improvement that preserves PaperSteps' privacy boundaries.
+title: "[Feature]: "
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What makes the current workflow difficult?
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Desired outcome
+      description: Describe the result rather than a specific implementation.
+    validations:
+      required: true
+  - type: dropdown
+    id: data
+    attributes:
+      label: Would this transmit document data?
+      options:
+        - "No"
+        - "Unsure"
+        - "Yes"
+    validations:
+      required: true
