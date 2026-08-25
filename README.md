@@ -2,7 +2,8 @@
 
 PaperSteps is a local-first, accessible workspace for completing fillable PDF forms. It turns the interactive fields already embedded in a PDF into a guided workflow, validates required answers, and exports a new completed document without modifying the source file.
 
-**Live application:** [gokul-debugger.github.io/papersteps](https://gokul-debugger.github.io/papersteps/)
+[![Open PaperSteps](https://img.shields.io/badge/Live_App-Open_PaperSteps-17383B?style=for-the-badge)](https://gokul-debugger.github.io/papersteps/)
+[![Deploy to GitHub Pages](https://github.com/gokul-debugger/papersteps/actions/workflows/pages.yml/badge.svg)](https://github.com/gokul-debugger/papersteps/actions/workflows/pages.yml)
 
 ![PaperSteps document workspace](docs/screenshots/papersteps-workspace.png)
 
@@ -78,6 +79,14 @@ npm run dev
 ```
 
 Open the local URL printed by Vite, then select **Try sample** or open a fillable PDF.
+
+## Deployment
+
+The production application is hosted on GitHub Pages and rebuilt from `main`
+through GitHub Actions. Every deployment runs linting, unit tests, and the
+production build before the new version is published.
+
+**Live application:** [gokul-debugger.github.io/papersteps](https://gokul-debugger.github.io/papersteps/)
 
 ## Quality Checks
 
